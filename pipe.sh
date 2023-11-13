@@ -26,9 +26,9 @@ create_dir() {
 }
 create_dir $out_dir
 ###############################SCRIPTS###############################
-MATCHING=$PALACE/seqGraph_phage/build/matching
-RDistance="$PALACE/seqGraph_phage/build/rDistance"
-EXTRACT_REF="$PALACE/seqGraph_phage/build/eref"
+MATCHING="$PALACE/seqGraph_phage/bin/matching"
+RDistance="$PALACE/seqGraph_phage/bin/rDistance"
+EXTRACT_REF="$PALACE/seqGraph_phage/bin/eref"
 
 SCRIPTS=$PALACE/seqGraph_phage/scripts
 MAKE_FA_FROM_PATH="$SCRIPTS/make_fa_from_path.py"

@@ -22,11 +22,8 @@ conda activate ./PALACE
 3. Create a build directory and compile PALACE under it (use **sudo**, if required):
 
 ```
-cd seqgraph_phage/
-mkdir build
-cd build
-cmake ..
-make && make install
+cd seqgraph_phage/bin
+make
 ```
 ### Approach 2, from scratch
 ### Prerequisites
@@ -61,10 +58,7 @@ git clone https://github.com/deepomicslab/PALACE
 #create a new mamba(conda) env
 mamba create -n palace ## or conda create -n palace
 mamba activate palace ## or conda activate palace
-cd ./PALACE/seqGraph_phage/
-mkdir build
-cd build
-cmake ..
+cd ./PALACE/seqGraph_phage/bin
 make
 ```
 
